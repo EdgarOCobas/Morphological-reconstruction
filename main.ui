@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1135</width>
+    <height>882</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Projekt egzaminacyjny</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1081</width>
+      <height>861</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1135</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlik">
+    <property name="title">
+     <string>Plik</string>
+    </property>
+    <addaction name="actionOtworz"/>
+    <addaction name="actionZapisz"/>
+    <addaction name="actionKaskad"/>
+    <addaction name="actionWyjscie"/>
+   </widget>
+   <widget class="QMenu" name="menuFunkcja">
+    <property name="title">
+     <string>Funkcja</string>
+    </property>
+    <addaction name="actionMorfologiczna_rekonstrukcja"/>
+   </widget>
+   <widget class="QMenu" name="menuInformacje">
+    <property name="title">
+     <string>Informacje</string>
+    </property>
+    <addaction name="actionAutor"/>
+   </widget>
+   <addaction name="menuPlik"/>
+   <addaction name="menuFunkcja"/>
+   <addaction name="menuInformacje"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOtworz"/>
+   <addaction name="actionZapisz"/>
+   <addaction name="actionMorfologiczna_rekonstrukcja"/>
+   <addaction name="actionAutor"/>
+  </widget>
+  <action name="actionOtworz">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/290985895_579687400394158_642483139725345957_n.png</normaloff>icons/290985895_579687400394158_642483139725345957_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>Otwórz</string>
+   </property>
+  </action>
+  <action name="actionZapisz">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/290397219_334683895528005_2036744080928619157_n.png</normaloff>icons/290397219_334683895528005_2036744080928619157_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zapisz</string>
+   </property>
+  </action>
+  <action name="actionKaskad">
+   <property name="text">
+    <string>Kaskad</string>
+   </property>
+  </action>
+  <action name="actionMorfologiczna_rekonstrukcja">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/291316519_569530461364592_585540848027509559_n.png</normaloff>icons/291316519_569530461364592_585540848027509559_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>Morfologiczna rekonstrukcja</string>
+   </property>
+  </action>
+  <action name="actionAutor">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/290523950_581465640042619_8144814663104588265_n.png</normaloff>icons/290523950_581465640042619_8144814663104588265_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>Autor</string>
+   </property>
+  </action>
+  <action name="actionWyjscie">
+   <property name="text">
+    <string>Wyjście</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
